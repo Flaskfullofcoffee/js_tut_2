@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Flaskfullofcoffee/js_tut_2/issues"
   },
-  "homepage": "https://github.com/Flaskfullofcoffee/js_tut_2#readme"
+  "homepage": "https://github.com/Flaskfullofcoffee/js_tut_2#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "concurrently": "^4.0.1",
+    "node-sass": "^4.9.3"
+  }
 }
