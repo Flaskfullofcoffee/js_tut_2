@@ -1,43 +1,6 @@
 * {
-  list-style-type: none; }
-
-body {
+  list-style-type: none;
   margin: 0;
-  padding: 0;
-  background-color: teal; }
-
-#container {
-  background-color: tomato;
-  display: flex;
-  height: 100vh; }
-
-.wrapper {
-  padding: 2vh;
-  background-color: lavender;
-  display: flex;
-  flex-direction: column;
-  width: 100%; }
-
-.wrapper li {
-  flex-grow: 1; }
-
-li {
-  background-color: grey;
-  margin: .75vh;
-  text-align: center;
-  font-size: 4rem;
-  padding: .5% 0; }
-
-.ready {
-  background-color: green; }
-
-.done {
-  background-color: red; }
-
-.later {
-  background-color: orange; }
-
-.finish {
-  background-color: #FDC53D; }
+  padding: 0; }
 
 /*# sourceMappingURL=styles.css.map */
