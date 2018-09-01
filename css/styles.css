@@ -1,44 +1,43 @@
 * {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: teal;
-}
+  background-color: teal; }
 
 #container {
   background-color: tomato;
   display: flex;
-  height: 100vh;
-}
+  height: 100vh; }
+
 .wrapper {
   padding: 2vh;
   background-color: lavender;
   display: flex;
   flex-direction: column;
-  width: 100%;
-}
+  width: 100%; }
+
 .wrapper li {
-  flex-grow: 1;
-}
+  flex-grow: 1; }
+
 li {
   background-color: grey;
   margin: .75vh;
   text-align: center;
   font-size: 4rem;
-  padding: .5% 0;
-}
+  padding: .5% 0; }
+
 .ready {
-  background-color: green;
-}
+  background-color: green; }
+
 .done {
-  background-color: red;
-}
+  background-color: red; }
+
 .later {
-  background-color: orange;
-}
+  background-color: orange; }
+
 .finish {
-  background-color: #FDC53D;
-}
+  background-color: #FDC53D; }
+
+/*# sourceMappingURL=styles.css.map */
