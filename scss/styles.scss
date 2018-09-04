@@ -3,3 +3,51 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  background-color: #242424;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.top {
+  text-align: center;
+  margin-top: 2.5vh;
+}
+.rawr {
+  height: 15vh;
+}
+.title {
+  // margin: 0 50%;
+  font-size: 4rem;
+  letter-spacing: .15em;
+}
+
+.wrapper {
+  text-align: left;
+  font-size: 4rem;
+  margin-top: 2.5vh;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.wrapper li {
+  padding: 1vh 0 1vh 2.5vw;
+  border-bottom: .5px solid #242424;
+  flex: 1;
+}
+.hot {
+  background-color: firebrick;
+}
+.cool {
+  background-color: teal;
+}
+
+ input{
+  margin: 2.5vh 0 .5vh;
+  font-size: 2rem;
+  border-radius: 5.5%;
+}
